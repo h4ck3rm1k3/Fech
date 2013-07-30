@@ -1,0 +1,31 @@
+canonical,^2,,^1,
+form_type,1,FORM TYPE,1,FORM TYPE
+filer_fec_cmte_id,2,FILER FEC CMTE ID,2,FEC COMMITTEE ID NUMBER
+entity_type,3,ENTITY-TYPE,3,IND/NAME (DEBTOR/CREDITOR)
+name_debtor_creditor,4,NAME (Debtor/Creditor),4,STREET 1
+street_1,5,STREET 1,5,STREET 2
+street_2,6,STREET 2,6,CITY
+city,7,CITY,7,STATE
+state,8,STATE,8,ZIP
+zip,9,ZIP,9,NATURE/PURPOSE DEBT DESCRIPTION
+nature_purpose_debt_description,10,NATURE/PURPOSE DEBT DESCRIPTION,10,BEGINNING BALANCE
+beginning_balance,11,BEGINNING BALANCE,11,INCURRED THIS PERIOD
+incurred_this_period,12,INCURRED THIS PERIOD,12,PAYMENT THIS PERIOD
+payment_this_period,13,PAYMENT THIS PERIOD,13,BALANCE AT CLOSE
+balance_at_close,14,BALANCE AT CLOSE,14,AMENDED
+fec_committee_id_number,15,FEC-COMMITTEE-ID-NUMBER,,
+fec_candidate_id_number,16,FEC-CANDIDATE-ID-NUMBER,,
+candidate_name,17,CANDIDATE-NAME,,
+cand_office,18,CAND-OFFICE,,
+cand_state_of_election,19,CAND-STATE (OF ELECTION),,
+cand_district,20,CAND-DISTRICT,,
+conduit_name,21,CONDUIT-NAME,,
+conduit_street_1,22,CONDUIT-STREET-1,,
+conduit_street_2,23,CONDUIT-STREET-2,,
+conduit_city,24,CONDUIT-CITY,,
+conduit_state,25,CONDUIT-STATE,,
+conduit_zip,26,CONDUIT-ZIP,,
+amended_cd,27,AMENDED-CD,,
+tran_id,28,TRAN_ID,,
+orig_tran_id,29,ORIG_TRAN_ID,,
+supr_tran_id,30,SUPR_TRAN_ID,,

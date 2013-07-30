@@ -1,0 +1,24 @@
+canonical,^2,,^1,
+form_type,1,FORM TYPE,1,FORM TYPE
+filer_fec_cmte_id,2,FILER FEC CMTE ID,2,FEC COMMITTEE ID NUMBER
+creditor_code,3,CREDITOR CODE,3,SEQUENCE NUMBER
+name_contributor_lender,4,NAME(Contributor/Lender),4,IND/NAME (CONTRIB/LENDER)
+street_1,5,STREET 1,5,STREET 1
+street_2,6,STREET 2,6,STREET 2
+city,7,CITY,7,CITY
+state,8,STATE,8,STATE
+zip,9,ZIP,9,ZIP
+yesno_is_this_a_disputed_debt,10,YESNO (IS THIS A DISPUTED DEBT),10,TYPE OF CREDITOR CODE
+date_incurred,11,DATE (INCURRED),11,YESNO (IS THIS A DISPUTED DEBT)
+amount_owed_to_creditor,12,AMOUNT OWED TO CREDITOR,12,DATE (INCURRED)
+amount_expected_to_pay_offer_settlement,13,AMOUNT EXPECTED TO PAY/OFFER SETTLEMENT,13,AMOUNT OWED TO CREDITOR
+fec_committee_id_number,14,FEC-COMMITTEE-ID-NUMBER,14,AMOUNT EXPECTED TO PAY/OFFER SETTLEMENT
+fec_candidate_id_number,15,FEC-CANDIDATE-ID-NUMBER,15,AMENDED
+candidate_name,16,CANDIDATE-NAME,,
+cand_office,17,CAND-OFFICE,,
+cand_state_of_election,18,CAND-STATE (OF ELECTION),,
+cand_district,19,CAND-DISTRICT,,
+amended_cd,20,AMENDED CD,,
+tran_id,21,TRAN_ID,,
+orig_tran_id,22,ORIG_TRAN_ID,,
+supr_tran_id,23,SUPR_TRAN_ID,,

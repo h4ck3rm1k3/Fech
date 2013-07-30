@@ -1,0 +1,33 @@
+canonical,^2,,^1,
+form_type,1,FORM TYPE,1,FORM TYPE
+filer_fec_cmte_id,2,FILER FEC CMTE ID,2,FEC COMMITTEE ID NUMBER
+bank_account_id_number,3,Bank Account ID Number,3,Bank Account ID Number
+name_of_account,4,NAME of (ACCOUNT),4,NAME of (ACCOUNT)
+date_coverage_from,5,DATE (COVERAGE FROM),5,DATE (COVERAGE FROM)
+date_coverage_to,6,DATE (COVERAGE TO),6,DATE (COVERAGE TO)
+1_total_receipts,7,1 Total Receipts,7,1. Total Receipts
+2_transfers_to_fed_or_allocation_account_for_allocable_exp,8,2 Transfers to FED or allocation account for allocable exp.,8,2. Transfers to FED or allocation account for allocable exp.
+3_transfers_to_state_local_party_organizations,9,3 Transfers to state/local Party organizations,9,3. Transfers to state/local Party organizations
+4_direct_state_local_candidate_support,10,4 Direct state/local candidate support,10,4. Direct state/local candidate support
+5_other_disbursements,11,5 Other Disbursements,11,5. Other Disbursements
+6_total_disbursements,12,6 Total Disbursements,12,6. Total Disbursements
+7_beginning_coh,13,7 Beginning COH,13,7. Beginning COH
+8_receipts,14,8 Receipts,14,8. Receipts
+9_subtotal,15,9 Subtotal,15,9. Subtotal
+10_disbursements,16,10 Disbursements,16,10. Disbursements
+11_ending_coh,17,11 Ending COH,17,11. Ending COH
+1_total_receipts,18,1 Total receipts,18,1. Total receipts
+2_transfers_to_fed_or_allocation_account_for_allocable_exp,19,2 Transfers to FED or allocation account for allocable exp.,19,2. Transfers to FED or allocation account for allocable exp.
+3_transfers_to_state_local_party_organizations,20,3 Transfers to state/local Party organizations,20,3. Transfers to state/local Party organizations
+4_direct_state_local_candidate_support,21,4 Direct state/local candidate support,21,4. Direct state/local candidate support
+5_other_disbursements,22,5 Other Disbursements,22,5. Other Disbursements
+6_total_disbursements,23,6 Total Disbursements,23,6. Total Disbursements
+7_beginning_coh_as_of_jan_1,24,7 Beginning COH (as of Jan 1),24,7. Beginning COH (as of Jan 1)
+8_receipts,25,8 Receipts,25,8. Receipts
+9_subtotal,26,9 Subtotal,26,9. Subtotal
+10_disbursements,27,10 Disbursements,27,10. Disbursements
+11_ending_coh,28,11 Ending COH,28,11. Ending COH
+amended_cd,29,AMENDED-CD,29,AMENDED
+tran_id,30,TRAN_ID,,
+orig_tran_id,31,ORIG_TRAN_ID,,
+supr_tran_id,32,SUPR_TRAN_ID,,

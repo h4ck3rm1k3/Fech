@@ -1,0 +1,41 @@
+canonical,^2,,^1,
+form_type,1,FORM TYPE,1,FORM TYPE
+filer_fec_cmte_id,2,FILER FEC CMTE ID,2,FEC COMMITTEE ID NUMBER
+back_reference_tran_id,3,BACK REFERENCE TRAN ID,3,REFERENCE ID NUMBER
+entity_type,4,ENTITY TYPE,4,IND/NAME (LOAN SOURCE)
+name_loan_source,5,NAME (Loan Source),5,STREET 1
+street_1,6,STREET 1,6,STREET 2
+street_2,7,STREET 2,7,CITY
+city,8,CITY,8,STATE
+state,9,STATE,9,ZIP
+zip,10,ZIP,10,AMT OF LOAN
+amt_of_loan,11,AMT OF LOAN,11,LOAN INTEREST RATE PERCENT
+loan_interest_rate_percent,12,LOAN INTEREST RATE PERCENT,12,DATE (INCURRED)
+date_incurred,13,DATE (INCURRED),13,DATE (DUE)
+date_due,14,DATE (DUE),14,A. YESNO (LOAN RESTRUCTURED)
+a1_yesno_loan_restructured,15,A1 YESNO (LOAN RESTRUCTURED),15,DATE (OF ORIGINAL LOAN)
+a2_date_of_original_loan,16,A2 DATE (OF ORIGINAL LOAN),16,B.1. CREDIT AMOUNT THIS DRAW
+b1_credit_amount_this_draw,17,B1 CREDIT AMOUNT THIS DRAW,17,B.2. TOTAL BALANCE
+b2_total_balance,18,B2 TOTAL BALANCE,18,C. YESNO (OTHERS LIABLE?)
+c_yesno_others_liable?,19,C YESNO (OTHERS LIABLE?),19,D. YESNO (COLLATERAL?)
+d_yesno_collateral?,20,D YESNO (COLLATERAL?),20,D.1 DESC (COLLATERAL
+d_1_desc_collateral,21,D 1 DESC (COLLATERAL,21,D.2 COLLATERAL VALUE/AMOUNT
+d_2_collateral_value_amount,22,D 2 COLLATERAL VALUE/AMOUNT,22,D.3 YESNO (PERFECTED INTEREST?)
+d_3_yesno_perfected_interest?,23,D 3 YESNO (PERFECTED INTEREST?),23,E.1 YESNO (FUTURE INCOME PLEDGED AS COLLATERAL?)
+e_1_yesno_future_income_pledged_as_collateral?,24,E 1 YESNO (FUTURE INCOME PLEDGED AS COLLATERAL?),24,E.2 DESC (SPECIFICATION OF THE ABOVE)
+e_2_desc_specification_of_the_above,25,E 2 DESC (SPECIFICATION OF THE ABOVE),25,E.3 ESTIMATED VALUE
+e_3_estimated_value,26,E 3 ESTIMATED VALUE,26,E.4 DATE (Depository account established)
+e_4_date_depository_account_established,27,E 4 DATE (Depository account established),27,E.5 IND/NAME (ACCOUNT LOCATION)
+e_5_ind_name_account_location,28,E 5 IND/NAME (Account Location),28,E.6 STREET 1
+e_6_street_1,29,E 6 STREET 1,29,E.7 STREET 2
+e_7_street_2,30,E 7 STREET 2,30,E.8 CITY
+e_8_city,31,E 8 CITY,31,E.9 STATE
+e_9_state,32,E 9 STATE,32,E.10 ZIP
+e_10_zip,33,E 10 ZIP,33,E.11 DEP ACCT AUTH DATE (Presidential)
+e_11_dep_acct_auth_date_presidential,34,E 11 DEP ACCT AUTH DATE (Presidential),34,F. DESC (IF NECESS. STATE BASIS OF LOAN)
+f_desc_if_necess_state_basis_of_loan,35,F DESC (IF NECESS STATE BASIS OF LOAN),35,G. IND/NAME (TREASURER)
+g_ind_name_treasurer,36,G IND/NAME (Treasurer),36,G. DATE (SIGNED)
+g_date_signed,37,G DATE (SIGNED),37,H. AUTH NAME (Lending Inst Representative)
+h_auth_name_lending_inst_rep,38,H AUTH NAME (Lending Inst Rep),38,H. AUTH TITLE (Lending Inst Representative)
+h_auth_title_lending_inst_representative,39,H AUTH TITLE (Lending Inst Representative),39,H. AUTH DATE (SIGNED)
+,,,40,AMENDED

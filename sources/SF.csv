@@ -1,0 +1,40 @@
+canonical,^2,,^1,
+form_type,1,FORM TYPE,1,FORM TYPE
+filer_fec_cmte_id,2,FILER FEC CMTE ID,2,FEC COMMITTEE ID NUMBER
+yesno_has_filer_been_desig_to_make_cord_expend,3,YESNO (HAS FILER BEEN DESIG TO MAKE CORD. EXPEND.),3,YESNO (HAS FILER BEEN DESIG. TO MAKE CORD. EXPEND.)
+fec_committee_id_number,4,FEC COMMITTEE ID NUMBER,4,FEC COMMITTEE ID NUMBER DESIGNATING CMTE
+designating_cmtes_committee_name,5,DESIGNATING CMTES. COMMITTEE NAME,5,COMMITTEE NAME
+fec_committee_id_number_subordinate_cmte,6,FEC COMMITTEE ID NUMBER SUBORDINATE CMTE,6,STREET 1
+committee_name,7,COMMITTEE NAME,7,STREET 2
+street_1,8,STREET 1,8,CITY
+street_2,9,STREET 2,9,STATE
+city,10,CITY,10,ZIP
+state,11,STATE,11,IND/NAME (PAYEE)
+zip,12,ZIP,12,STREET 1
+entity_type,13,ENTITY TYPE,13,STREET 2
+name_payee,14,NAME (Payee),14,CITY
+street_1,15,STREET 1,15,STATE
+street_2,16,STREET 2,16,ZIP
+city,17,CITY,17,FEC CANDIDATE ID NUMBER
+state,18,STATE,18,CANDIDATE NAME
+zip,19,ZIP,19,CAN/OFF
+agg_gen_ele_amount_expended,20,AGG GEN ELE AMOUNT EXPENDED,20,STATE (OF ELECTION)
+transdesc,21,TRANSDESC,21,CAN/DIST
+date,22,DATE,22,AGG. GEN. ELE. AMOUNT EXPENDED
+amount_expended,23,AMOUNT EXPENDED,23,TRANSDESC
+fec_committee_id_number,24,FEC COMMITTEE ID NUMBER,24,DATE
+fec_candidate_id_number,25,FEC CANDIDATE ID NUMBER,25,AMOUNT EXPENDED
+candidate_name,26,CANDIDATE NAME,26,AMENDED
+can_off,27,CAN/OFF,,
+state_of_election,28,STATE (OF ELECTION),,
+can_dist,29,CAN/DIST,,
+conduit_name,30,CONDUIT-NAME,,
+conduit_street_1,31,CONDUIT-STREET-1,,
+conduit_street_2,32,CONDUIT-STREET-2,,
+conduit_city,33,CONDUIT-CITY,,
+conduit_state,34,CONDUIT-STATE,,
+conduit_zip,35,CONDUIT-ZIP,,
+amended_cd,36,AMENDED-CD,,
+tran_id,37,TRAN_ID,,
+orig_tran_id,38,ORIG_TRAN_ID,,
+supr_tran_id,39,SUPR_TRAN_ID,,

@@ -1,0 +1,13 @@
+canonical,^2,
+form_type,1,FORM TYPE
+filer_fec_cmte_id,2,FILER FEC CMTE ID
+back_reference_tran_id,3,BACK REFERENCE TRAN ID
+ind_name_endorser_guarantor,4,IND/NAME (Endorser/Guarantor)
+street_1,5,STREET 1
+street_2,6,STREET 2
+city,7,CITY
+state,8,STATE
+zip,9,ZIP
+indemp,10,INDEMP
+indocc,11,INDOCC
+amount_guaranteed_balance,12,AMOUNT GUARANTEED BALANCE

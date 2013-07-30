@@ -1,0 +1,14 @@
+canonical,^2,,^1,
+form_type,1,FORM TYPE,1,FORM TYPE
+filer_fec_cmte_id,2,FILER FEC CMTE ID,2,FEC COMMITTEE ID NUMBER
+ind_name_activity_event,3,IND/NAME (Activity/Event),3,IND/NAME (ACTIVITY/EVENT)
+yesno_activity_is_fundraising,4,YESNO (ACTIVITY IS FUNDRAISING),4,ACTIVITY/EVENT NUMBER
+yesno_activity_is_exempt,5,YESNO (ACTIVITY IS EXEMPT),5,YESNO (ACTIVITY IS FUNDRAISING)
+yesno_act_direct_can_support,6,YESNO (ACT DIRECT CAN SUPPORT),6,YESNO (ACTIVITY IS EXEMPT)
+7_ratio_code_n_r_s,7,7-RATIO CODE (N,R,S),7,YESNO (ACT DIRECT CAN SUPPORT)
+federal_percentage,8,FEDERAL PERCENTAGE,8,8-RATIO CODE (N,R,S)
+non_federal_percentage,9,NON-FEDERAL PERCENTAGE,9,FEDERAL PERCENTAGE
+amended_cd,10,AMENDED-CD,10,NON-FEDERAL PERCENTAGE
+tran_id,11,TRAN_ID,11,AMENDED
+orig_tran_id,12,ORIG_TRAN_ID,,
+supr_tran_id,13,SUPR_TRAN_ID,,

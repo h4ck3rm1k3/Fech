@@ -1,0 +1,40 @@
+canonical,^2,,^1,
+form_type,1,FORM TYPE,1,FORM TYPE
+filer_fec_cmte_id,2,FILER FEC CMTE ID,2,FEC COMMITTEE ID NUMBER
+entity_type,3,ENTITY_TYPE,3,IND/NAME (PAYEE)
+name_payee,4,NAME (Payee),4,STREET 1
+street_1,5,STREET 1,5,STREET 2
+street_2,6,STREET 2,6,CITY
+city,7,CITY,7,STATE
+state,8,STATE,8,ZIP
+zip,9,ZIP,9,TRANSDESC
+transdesc,10,TRANSDESC,10,DATE
+date,11,DATE,11,AMOUNT EXPENDED
+amount_expended,12,AMOUNT EXPENDED,12,FEC CANDIDATE ID NUMBER
+support_oppose,13,SUPPORT/OPPOSE,13,CANDIDATE NAME
+s_o_fec_can_id_number,14,S/O FEC CAN ID NUMBER,14,CAN/OFF
+s_o_can_name,15,S/O CAN/NAME,15,STATE (OF ELECTION)
+s_o_can_off,16,S/O CAN/OFF,16,CAN/DIST
+s_o_state,17,S/O STATE,17,SUPPORT/OPPOSE
+s_o_can_dist,18,S/O CAN/DIST,18,IND/NAME (PERSON COMPLETING FORM)
+fec_committee_id_number,19,FEC COMMITTEE ID NUMBER,19,DATE (SIGNED)
+fec_candidate_id_number,20,FEC CANDIDATE ID NUMBER,20,DATE (NOTARIZED)
+candidate_name,21,CANDIDATE NAME,21,DATE (NOTARY COMMISSION EXPIRES)
+can_off,22,CAN/OFF,22,IND/NAME (NOTARY)
+state_of_election,23,STATE (OF ELECTION),23,AMENDED
+can_dist,24,CAN/DIST,,
+conduit_name,25,CONDUIT-NAME,,
+conduit_street_1,26,CONDUIT-STREET-1,,
+conduit_street_2,27,CONDUIT-STREET-2,,
+conduit_city,28,CONDUIT-CITY,,
+conduit_state,29,CONDUIT-STATE,,
+conduit_zip,30,CONDUIT-ZIP,,
+ind_name_person_completing_form,31,IND/NAME (Person Completing Form),,
+date_signed,32,DATE (SIGNED),,
+date_notarized,33,DATE (NOTARIZED),,
+date_notary_commission_expires,34,DATE (NOTARY COMMISSION EXPIRES),,
+ind_name_notary,35,IND/NAME (NOTARY),,
+amended_cd,36,AMENDED-CD,,
+tran_id,37,TRAN_ID,,
+orig_tran_id,38,ORIG_TRAN_ID,,
+supr_tran_id,39,SUPR_TRAN_ID,,

@@ -1,0 +1,37 @@
+canonical,^2,,^1,
+form_type,1,FORM TYPE,1,FORM TYPE
+filer_fec_cmte_id,2,FILER FEC CMTE ID,2,FEC COMMITTEE ID NUMBER
+entity_type,3,ENTITY_TYPE,3,IND/NAME (PAYEE)
+name_payee,4,NAME (Payee),4,STREET 1
+street_1,5,STREET 1,5,STREET 2
+street_2,6,STREET 2,6,CITY
+city,7,CITY,7,STATE
+state,8,STATE,8,ZIP
+zip,9,ZIP,9,PURPOSE/EVENT
+purpose_event,10,PURPOSE/EVENT,10,EVENT NUMBER
+date,11,DATE,11,DATE
+total_amount,12,TOTAL AMOUNT,12,TOTAL AMOUNT
+federal_share,13,FEDERAL SHARE,13,FEDERAL SHARE
+non_federal_share,14,NON-FEDERAL SHARE,14,NON-FEDERAL SHARE
+yesno_activity_is_admin_voter_drive,15,YESNO (ACTIVITY IS ADMIN/VOTER DRIVE),15,YESNO (ACTIVITY IS ADMIN/VOTER DRIVE)
+yesno_activity_is_fundraising,16,YESNO (ACTIVITY IS FUNDRAISING),16,YESNO (ACTIVITY IS FUNDRAISING)
+yesno_activity_is_exempt,17,YESNO (ACTIVITY IS EXEMPT),17,YESNO (ACTIVITY IS EXEMPT)
+yesno_act_direct_can_support,18,YESNO (ACT DIRECT CAN SUPPORT),18,YESNO (ACT DIRECT CAN SUPPORT)
+event_year_to_date,19,EVENT YEAR-TO-DATE,19,EVENT YEAR-TO-DATE
+additional_description,20,ADDITIONAL DESCRIPTION,20,ADDITIONAL DESCRIPTION
+fec_committee_id_number,21,FEC COMMITTEE ID NUMBER,21,AMENDED
+fec_candidate_id_number,22,FEC CANDIDATE ID NUMBER,,
+candidate_name,23,CANDIDATE NAME,,
+can_off,24,CAN/OFF,,
+state_of_election,25,STATE (OF ELECTION),,
+can_dist,26,CAN/DIST,,
+conduit_name,27,CONDUIT-NAME,,
+conduit_street_1,28,CONDUIT-STREET-1,,
+conduit_street_2,29,CONDUIT-STREET-2,,
+conduit_city,30,CONDUIT-CITY,,
+conduit_state,31,CONDUIT-STATE,,
+conduit_zip,32,CONDUIT-ZIP,,
+amended_cd,33,AMENDED-CD,,
+tran_id,34,TRAN_ID,,
+orig_tran_id,35,ORIG_TRAN_ID,,
+supr_tran_id,36,SUPR_TRAN_ID,,
