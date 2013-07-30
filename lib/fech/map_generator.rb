@@ -3,12 +3,12 @@ module Fech
   # Helper class to generate mapping hashes from source csv data.
   # Needed to rebuild rendered_maps.rb with new source data, not used
   # in main gem.
-  #   rake fech:maps
+  #   
   class MapGenerator
     
     attr_accessor :map
-    FILING_VERSIONS   = ["8.0", "7.0", "6.4", "6.3", "6.2", "6.1",
-                         "5.3", "5.2", "5.1", "5.0", "3"]
+#    FILING_VERSIONS   = ["8.0", "7.0", "6.4", "6.3", "6.2", "6.1",                         "5.3", "5.2", "5.1", "5.0", "3","2","1"]
+    FILING_VERSIONS   = ["2","1"]
     BASE_ROW_TYPES    = ["HDR", "F1", "F13", "F132", "F133", "F1M", "F2", "F24", "F3", "F3L", "F3P", "F3P31", "F3PS", 
                          "F3S", "F3X", "F4", "F5", "F56", "F57", "F6", "F65", "F7", "F76", "F9", "F91", "F92", "F93", 
                          "F94", "F99", "H1", "H2", "H3", "H4", "H5", "H6",
@@ -82,6 +82,7 @@ module Fech
           ic = Iconv.new('UTF-8//IGNORE', 'UTF-8')
           valid_string = ic.iconv(open(filepath).read << ' ')[0..-2]
         else
+          print "open "+ filepath + "\n"
           valid_string = (open(filepath).read << ' ')[0..-2].encode!('UTF-16', 'UTF-8', :invalid => :replace, :replace => '')
           valid_string = valid_string.encode!('UTF-8', 'UTF-16')
         end
@@ -93,7 +94,7 @@ module Fech
           data[row.first] ||= {}
           hybrid_data[row.first] ||= {}
           row_version_data = remove_ignored_fields(row, ignored_fields)
-
+          #print row_version_data
           # Check the maps for this row type in already-processed versions.
           # If this map is identical to a previous map, tack this version on to
           # to it instead of creating a new one.
@@ -103,6 +104,7 @@ module Fech
             
             next if k == version
             if v == row_version_data
+              #print row_version_data
               # Create the new hybrid entry
               hybrid_data[row.first]["#{k}|#{version}"] = row_version_data
               
@@ -111,6 +113,8 @@ module Fech
               data[row.first].delete(version)
             end
           end
+
+#          print row
           data[row.first].update(hybrid_data[row.first])
         end
       end
@@ -122,7 +126,12 @@ module Fech
       # each column a unique map for that row for one or more versions.
       data.each do |row_type, row_data|
         file_path = write_row_map_file(source_dir, row_type)
-        next unless File.exists?(file_path)
+        print "for writing" + file_path + "\n"
+        if not File.exists?(file_path)  then
+          print "was skipping for writing" + file_path + "\n"
+#          next
+        end
+        
         File.open(file_path, 'w') do |f|
           f.write('canonical')
           
@@ -229,7 +238,7 @@ module Fech
     end
     
     def self.write_row_map_file(source_dir, row_type)
-      File.join(source_dir, 'rows', row_type + '.csv')
+      File.join(source_dir, row_type + '.csv')
     end
   
   end
