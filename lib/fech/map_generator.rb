@@ -7,8 +7,8 @@ module Fech
   class MapGenerator
     
     attr_accessor :map
-#    FILING_VERSIONS   = ["8.0", "7.0", "6.4", "6.3", "6.2", "6.1",                         "5.3", "5.2", "5.1", "5.0", "3","2","1"]
-    FILING_VERSIONS   = ["2","1"]
+    FILING_VERSIONS   = ["8.0", "7.0", "6.4", "6.3", "6.2", "6.1",                         "5.3", "5.2", "5.1", "5.0", "3","2","1"]
+#    FILING_VERSIONS   = ["2","1"]
     BASE_ROW_TYPES    = ["HDR", "F1", "F13", "F132", "F133", "F1M", "F2", "F24", "F3", "F3L", "F3P", "F3P31", "F3PS", 
                          "F3S", "F3X", "F4", "F5", "F56", "F57", "F6", "F65", "F7", "F76", "F9", "F91", "F92", "F93", 
                          "F94", "F99", "H1", "H2", "H3", "H4", "H5", "H6",
@@ -80,6 +80,7 @@ module Fech
         if RUBY_VERSION < "1.9.3"
           require 'iconv'
           ic = Iconv.new('UTF-8//IGNORE', 'UTF-8')
+          print "open "+ filepath + "\n"
           valid_string = ic.iconv(open(filepath).read << ' ')[0..-2]
         else
           print "open "+ filepath + "\n"
@@ -87,6 +88,7 @@ module Fech
           valid_string = valid_string.encode!('UTF-8', 'UTF-16')
         end
         open(filepath, 'w').write(valid_string)
+        print "write file:" + filepath + "\n"
 
         Fech::Csv.foreach(filepath) do |row|
           # Each row of a version summary file contains the ordered list of
@@ -132,6 +134,7 @@ module Fech
 #          next
         end
         
+        print "write file2:" + file_path + "\n"
         File.open(file_path, 'w') do |f|
           f.write('canonical')
           
@@ -164,6 +167,7 @@ module Fech
     # Generates the mapping for each row type in BASE_ROW_TYPES, writes them out
     # to file for inclusion in the gem.
     def self.dump_row_maps_to_ruby(source_dir, file_path)
+      print "write file3:" + file_path + "\n"
       File.open(file_path, 'w') do |f|
         f.write("# Generated automatically by Fech::MapGenerator.\n\n")
         f.write("# RENDERED_MAPS contains an entry for each supported row type, which in turn:\n")
@@ -174,7 +178,8 @@ module Fech
         BASE_ROW_TYPES.each do |row_type|
           f.write("    \"#{ROW_TYPE_MATCHERS[row_type].source}\" => {\n")
           generate_row_map_from_file(source_dir, row_type).sort_by(&:first).reverse.each do |k, v|
-            f.write("      \'#{k}' => [#{v.map {|x| x.to_s.gsub(/^\d+_?/, "") }.collect {|x| (x.nil? || x == "") ? "nil" : ":#{x}" }.join(', ') }],\n")
+            print k
+            f.write("      \'#{k}' => [#{v.map {|x| x.to_s.gsub(/^\d+_?/, "") }.collect {|x| (x.nil? || x == "") ? "nil" : ":#{x}" }.join(',') }],\n")
           end
           f.write("    },\n")
         end
@@ -189,7 +194,9 @@ module Fech
       versions = []
       version_indexes = []
       data = {}
-      text = open(row_map_file(source_dir, row_type)).read
+      filepath=row_map_file(source_dir, row_type)
+      print "read file:" + filepath + "\n"
+      text = open(filepath).read
       split_char = text.index(/\r/) ? /\r/ : /\n/
       rows = text.split(split_char).collect {|x| x.split(',')}
       rows.each do |row|
