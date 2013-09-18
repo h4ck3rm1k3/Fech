@@ -1,0 +1,10 @@
+canonical,^3,
+record_type,1,Record Type
+ef_type,2,EF Type
+fec_ver,3,FEC Ver
+soft_name,4,Soft Name
+soft_ver,5,Soft Ver
+name_delim,6,Name Delim
+rpt_id,7,Rpt ID
+rpt_number,8,Rpt Number
+hdrcomment,9,HDRcomment 

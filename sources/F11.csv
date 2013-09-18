@@ -1,0 +1,29 @@
+canonical,^5.1|5.0,
+form_type,1,FORM TYPE
+filer_fec_committee_id,2,FILER FEC COMMITTEE ID
+1_candidate_name,3,1. CANDIDATE NAME
+2_candidate_id,4,2. CANDIDATE ID
+3_can_office,5,3. CAN/OFFICE
+4_candidate_state,6,4. CANDIDATE STATE
+5_candidate_district,7,5. CANDIDATE DISTRICT
+6_committee_name,8,6. COMMITTEE NAME       
+8_street_1,9,8. STREET 1
+8_street_2,10,8. STREET 2
+9_city,11,9. CITY
+9_state,12,9. STATE
+9_zip,13,9. ZIP
+10_name_of_candidate,14,10. NAME OF CANDIDATE
+11_name_of_committee,15,11. NAME OF COMMITTEE
+12_committee_id,16,12. COMMITTEE ID
+13_committee_street_1,17,13. COMMITTEE STREET 1
+13_committee_street_2,18,13. COMMITTEE STREET 2
+14_committee_city,19,14. COMMITTEE CITY
+14_committee_state,20, 14. COMMITTEE STATE
+14_committee_zip,21,14. COMMITTEE ZIP
+15_date_of_form_10_receipt,22,15. DATE OF FORM 10 RECEIPT
+16_opposition_pers_funds_amt,23,16. OPPOSITION PERS FUNDS AMT
+item_elect_cd,24,ITEM ELECT CD
+item_elect_other,25,ITEM ELECT OTHER
+type,26,TYPE
+name_candidate_treas_as_signed,27,NAME/CANDIDATE/TREAS (as signed)
+date_signed,28,DATE (Signed)

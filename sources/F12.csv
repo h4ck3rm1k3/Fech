@@ -1,0 +1,20 @@
+canonical,^5.1|5.0,
+form_type,1,FORM TYPE
+filer_fec_committee_id,2,FILER FEC COMMITTEE ID
+1_candidate_name,3,1. CANDIDATE NAME
+2_candidate_id,4,2. CANDIDATE ID
+3_can_office,5,3. CAN/OFFICE
+4_candidate_state,6,4. CANDIDATE STATE
+5_candidate_district,7,5. CANDIDATE DISTRICT
+6_committee_name,8,6. COMMITTEE NAME       
+8_street_1,9,8. STREET 1
+8_street_2,10,8. STREET 2
+9_city,11,9. CITY
+9_state,12,9. STATE
+9_zip,13,9. ZIP
+12a_date_reached_100,14,12a. DATE REACHED 100%
+12a_perse_funds_amt,15,12a. PERSE FUNDS AMT
+12a_prev_form_11_date,16,12a. PREV FORM 11 DATE
+12b_date_reached_110,17,12B. DATE REACHED 110%
+12a_perse_funds_amt,18,12a. PERSE FUNDS AMT
+12a_prev_form_11_date,19,12a. PREV FORM 11 DATE
